@@ -56,7 +56,7 @@ print:
 
 ; Message string: "Hello, World!" followed by newline (10), carriage return (13), and null terminator (0)
 msg:
-    db "Hello, World!", 10, 13, "Goz OS!",10,13, 0
+    db "Hello, World!", 10, 13, "Welcome to Goz OS!", 10, 13, 0
 
 ; Pad the boot sector to 510 bytes (boot sector must be exactly 512 bytes)
 ; Fill remaining space with zeros

@@ -7,7 +7,7 @@ DD := dd
 
 ASM := src/boot/boot.asm
 BOOTBIN := boot.bin
-IMG := floppy.img
+IMG := gozos.img
 BS := 512
 COUNT := 2880    # 1.44MB floppy = 512 * 2880
 
